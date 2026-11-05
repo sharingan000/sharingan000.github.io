@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Danil Karpov — machine learning researcher at Yandex Kinopoisk, studying at ITMO University and the Yandex School of Data Analysis. View and download my CV.">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta property="og:title" content="Danil Karpov — Machine Learning Researcher">
+  <meta property="og:description" content="Research, education and experience. View and download my CV.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sharingan000.github.io/">
+  <link rel="canonical" href="https://sharingan000.github.io/">
+  <title>Danil Karpov — Machine Learning Researcher</title>
+  <style>
+    :root { color-scheme: light; --paper: #f6f5f1; --ink: #192c38; --muted: #58646c; --line: #d9ddd9; --accent: #255f53; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    a { color: inherit; text-underline-offset: 4px; }
+    a:hover { color: var(--accent); }
+    a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+    .wrap { max-width: 1060px; margin: auto; padding: 0 32px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 28px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .monogram { font-weight: 750; font-size: 18px; letter-spacing: -.04em; text-decoration: none; }
+    nav { display: flex; gap: 24px; font-size: 14px; }
+    nav a { text-decoration: none; }
+    .intro { padding: 72px 0 52px; max-width: 800px; }
+    .eyebrow { margin: 0 0 16px; color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    h1 { margin: 0 0 20px; font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(43px, 7vw, 72px); letter-spacing: -.045em; line-height: 1.1; }
+    .lead { margin: 0 0 16px; max-width: 720px; font-size: clamp(18px, 2.2vw, 22px); line-height: 1.6; }
+    .bio { max-width: 680px; margin: 0; color: var(--muted); font-size: 16px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 10px; padding: 10px 20px; border: 1px solid var(--ink); border-radius: 6px; font-size: 14px; font-weight: 600; text-decoration: none; transition: background .15s; }
+    .button.primary { background: var(--ink); color: white; }
+    .button.primary:hover { background: var(--accent); border-color: var(--accent); }
+    .button.secondary:hover { background: white; }
+    .contacts { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 28px; color: var(--muted); font-size: 14px; }
+    .cv-section { padding-bottom: 40px; }
+    .cv-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+    h2 { margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -.02em; }
+    .cv-heading p { margin: 0; font-size: 13px; color: var(--muted); }
+    .pdf { display: block; width: 100%; height: 880px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+    .preview-note { color: var(--muted); font-size: 13px; margin: 12px 0 0; }
+    .mobile-note { display: none; border: 1px solid var(--line); border-radius: 8px; background: white; padding: 24px; }
+    .mobile-note p { margin: 0 0 18px; color: var(--muted); }
+    footer { border-top: 1px solid var(--line); padding: 22px 0 30px; display: flex; justify-content: space-between; gap: 18px; color: var(--muted); font-size: 12px; }
+    @media (max-width: 640px) {
+      .wrap { padding: 0 22px; }
+      header { padding-top: 22px; padding-bottom: 22px; }
+      nav { gap: 18px; }
+      .intro { padding: 48px 0 40px; }
+      .cv-heading { align-items: flex-start; flex-direction: column; gap: 4px; }
+      .pdf, .preview-note { display: none; }
+      .mobile-note { display: block; }
+      footer { flex-wrap: wrap; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="monogram" href="./" aria-label="Danil Karpov home">DK.</a>
+      <nav aria-label="Main navigation">
+        <a href="#cv">Curriculum vitae</a>
+        <a href="mailto:minion.work@yandex.ru">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="name">
+        <p class="eyebrow">Machine learning · Research</p>
+        <h1 id="name">Danil Karpov</h1>
+        <p class="lead">I research machine learning methods for video quality, compression and dataset construction at Yandex Kinopoisk.</p>
+        <p class="bio">I study AI Engineering at ITMO University and Data Science at the Yandex School of Data Analysis. My work connects mathematical modelling, representation learning and experiments with real-world data.</p>
+        <div class="actions">
+          <a class="button primary" href="CV.pdf">View CV <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="CV.pdf" download="Danil-Karpov-CV.pdf">Download PDF <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="contacts" aria-label="Contact links">
+          <a href="mailto:minion.work@yandex.ru">minion.work@yandex.ru</a>
+          <a href="https://github.com/sharingan000">GitHub</a>
+          <a href="https://t.me/neon0_o">Telegram</a>
+        </div>
+      </section>
+      <section class="cv-section" id="cv" aria-labelledby="cv-title">
+        <div class="cv-heading">
+          <h2 id="cv-title">Curriculum vitae</h2>
+          <p>Education, research and experience · PDF</p>
+        </div>
+        <iframe class="pdf" src="CV.pdf#view=FitH" title="Danil Karpov curriculum vitae" loading="lazy"></iframe>
+        <p class="preview-note">If the preview is unavailable, <a href="CV.pdf">open the PDF directly</a>.</p>
+        <div class="mobile-note">
+          <p>Read the full CV in your PDF viewer or save a copy for later.</p>
+          <a class="button primary" href="CV.pdf">Open CV <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>Danil Karpov</span>
+      <a href="mailto:minion.work@yandex.ru">Get in touch</a>
+    </footer>
+  </div>
+</body>
+</html>
